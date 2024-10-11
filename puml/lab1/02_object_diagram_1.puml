@@ -1,0 +1,38 @@
+@startuml
+
+skinparam linetype ortho
+
+object ":Веб-сайт" as web
+object "Для домашних серверов: Конфигурация" as server
+object "Компьютер для игр: Конфигурация" as game_station
+object "Офисная машина: Конфигурация" as office_station
+
+object "Прототип 1: Компьютер" as computer_proto_1
+object "Прототип 2: Компьютер" as computer_proto_2
+object "Прототип 3: Компьютер" as computer_proto_3
+
+object ":Клиент" as client
+object ":Корзина" as basket
+object "(Копия) Прототип 3: Копьютер" as computer_to_buy
+
+web -- server
+web -- game_station
+web -- office_station
+
+server -- computer_proto_1
+game_station -- computer_proto_2
+office_station -- computer_proto_3
+
+client -- basket
+basket -- computer_to_buy
+computer_to_buy .. computer_proto_3
+
+note "Эти объекты компьютеров используются как прототипы. \nЭкземпляры конфигурации используются как прототипы для пользовательских конфигураций. \nТаким образом пользователь вволе менять предустановленные конфигурации, как ему вздумается." as protoNote
+
+computer_proto_1 .. protoNote
+computer_proto_2 .. protoNote
+computer_proto_3 .. protoNote
+
+client -- web
+
+@enduml

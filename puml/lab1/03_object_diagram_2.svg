@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="829px" preserveAspectRatio="none" style="width:737px;height:829px;" version="1.1" viewBox="0 0 737 829" width="737px" zoomAndPan="magnify"><defs><filter height="300%" id="ffj670j2ltt0r" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><path d="M439,719 L439,729 L353.11,733 L439,737 L439,746.706 A0,0 0 0 0 439,746.706 L699,746.706 A0,0 0 0 0 699,746.706 L699,729 L689,719 L439,719 A0,0 0 0 0 439,719 " fill="#FBFB77" filter="url(#ffj670j2ltt0r)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M689,719 L689,729 L699,729 L689,719 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="239" x="445" y="737.897">Этому заказу ещё не назначен курьер</text><path d="M413,578 L413,605.706 L725,605.706 L725,588 L715,578 L413,578 " fill="#FBFB77" filter="url(#ffj670j2ltt0r)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M715,578 L715,588 L725,588 L715,578 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="291" x="419" y="596.897">Эти два заказа доставляются одним курьером</text><rect fill="#FEFECE" filter="url(#ffj670j2ltt0r)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="70" x="6" y="522"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="56" x="13" y="536.8281">:Веб-сайт</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="75" y1="542.3441" y2="542.3441"/><rect fill="#FEFECE" filter="url(#ffj670j2ltt0r)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="60" x="136.5" y="433"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="46" x="143.5" y="447.8281">:Клиент</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="137.5" x2="195.5" y1="453.3441" y2="453.3441"/><rect fill="#FEFECE" filter="url(#ffj670j2ltt0r)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="60" x="136.5" y="611"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="46" x="143.5" y="625.8281">:Клиент</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="137.5" x2="195.5" y1="631.3441" y2="631.3441"/><rect fill="#FEFECE" filter="url(#ffj670j2ltt0r)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="67" x="271.5" y="115"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="53" x="278.5" y="129.8281">:Корзина</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="272.5" x2="337.5" y1="135.3441" y2="135.3441"/><rect fill="#FEFECE" filter="url(#ffj670j2ltt0r)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="67" x="271.5" y="646"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="53" x="278.5" y="660.8281">:Корзина</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="272.5" x2="337.5" y1="666.3441" y2="666.3441"/><rect fill="#FEFECE" filter="url(#ffj670j2ltt0r)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="96" x="257" y="326"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="82" x="264" y="340.8281">Заказ 1: Заказ</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="258" x2="352" y1="346.3441" y2="346.3441"/><rect fill="#FEFECE" filter="url(#ffj670j2ltt0r)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="96" x="257" y="433"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="82" x="264" y="447.8281">Заказ 2: Заказ</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="258" x2="352" y1="453.3441" y2="453.3441"/><rect fill="#FEFECE" filter="url(#ffj670j2ltt0r)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="96" x="257" y="717"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="82" x="264" y="731.8281">Заказ 3: Заказ</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="258" x2="352" y1="737.3441" y2="737.3441"/><rect fill="#FEFECE" filter="url(#ffj670j2ltt0r)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="96" x="257" y="504"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="82" x="264" y="518.8281">Заказ 4: Заказ</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="258" x2="352" y1="524.3441" y2="524.3441"/><rect fill="#FEFECE" filter="url(#ffj670j2ltt0r)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="96" x="257" y="575"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="82" x="264" y="589.8281">Заказ 5: Заказ</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="258" x2="352" y1="595.3441" y2="595.3441"/><rect fill="#FEFECE" filter="url(#ffj670j2ltt0r)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="61" x="538.5" y="221"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="47" x="545.5" y="235.8281">: Курьер</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="539.5" x2="598.5" y1="241.3441" y2="241.3441"/><rect fill="#FEFECE" filter="url(#ffj670j2ltt0r)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="61" x="538.5" y="434"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="47" x="545.5" y="448.8281">: Курьер</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="539.5" x2="598.5" y1="454.3441" y2="454.3441"/><rect fill="#FEFECE" filter="url(#ffj670j2ltt0r)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="61" x="136" y="522"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="47" x="143" y="536.8281">: Курьер</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="137" x2="196" y1="542.3441" y2="542.3441"/><rect fill="#FEFECE" filter="url(#ffj670j2ltt0r)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="113" x="512.5" y="292"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="99" x="519.5" y="306.8281">:Оплата по карте</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="513.5" x2="624.5" y1="312.3441" y2="312.3441"/><rect fill="#FEFECE" filter="url(#ffj670j2ltt0r)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="134" x="502" y="505"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="120" x="509" y="519.8281">:Оплата наличными</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="503" x2="635" y1="525.3441" y2="525.3441"/><rect fill="#FEFECE" filter="url(#ffj670j2ltt0r)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="134" x="502" y="782"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="120" x="509" y="796.8281">:Оплата наличными</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="503" x2="635" y1="802.3441" y2="802.3441"/><rect fill="#FEFECE" filter="url(#ffj670j2ltt0r)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="84" x="527" y="8"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="534" y="22.8281">:Компьютер</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="528" x2="610" y1="28.3441" y2="28.3441"/><rect fill="#FEFECE" filter="url(#ffj670j2ltt0r)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="86" x="526" y="79"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="72" x="533" y="93.8281">:Перефирия</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="527" x2="611" y1="99.3441" y2="99.3441"/><rect fill="#FEFECE" filter="url(#ffj670j2ltt0r)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="114" x="512" y="150"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="100" x="519" y="164.8281">:Комплектующее</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="513" x2="625" y1="170.3441" y2="170.3441"/><rect fill="#FEFECE" filter="url(#ffj670j2ltt0r)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="86" x="526" y="646"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="72" x="533" y="660.8281">:Перефирия</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="527" x2="611" y1="666.3441" y2="666.3441"/><rect fill="#FEFECE" filter="url(#ffj670j2ltt0r)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="98" x="520" y="363"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="84" x="527" y="377.8281">:Жёсткий диск</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="521" x2="617" y1="383.3441" y2="383.3441"/><!--MD5=[186e03d888cb23f10e832cec37fba2d7]
+link basket_1 to comp1--><path d="M294,114.85 C294,84.32 294,26 294,26 C294,26 449.9,26 526.93,26 " fill="none" id="basket_1-comp1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[5eb1d3d36b73d0b1854a985939c60082]
+link basket_1 to comp2--><path d="M317,114.58 C317,105.72 317,97 317,97 C317,97 453.99,97 525.97,97 " fill="none" id="basket_1-comp2" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[94bab48374fe65fb86dd0f14ff11bae0]
+link basket_1 to comp3--><path d="M338.91,132.5 C399.25,132.5 519,132.5 519,132.5 C519,132.5 519,141.1 519,149.83 " fill="none" id="basket_1-comp3" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9f1baf0715652dcfa7b594287e8fa257]
+link basket_2 to comp4--><path d="M338.7,664 C386.38,664 473.54,664 525.87,664 " fill="none" id="basket_2-comp4" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e5fbf9b0c1ba29291203bb630e0ec6ff]
+link client_1 to basket_1--><path d="M157,432.99 C157,365.72 157,133 157,133 C157,133 227.75,133 271.42,133 " fill="none" id="client_1-basket_1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[754cafd5c9d174239701b97127a984e2]
+link client_2 to basket_2--><path d="M167,647.17 C167,655.9 167,664.5 167,664.5 C167,664.5 230.39,664.5 271.24,664.5 " fill="none" id="client_2-basket_2" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d8df4b6576aac0966e244d0a3849250f]
+link client_1 to order_1--><path d="M177,432.85 C177,402.32 177,344 177,344 C177,344 220.65,344 256.97,344 " fill="none" id="client_1-order_1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[bf911735563cdc4274aed161567a7359]
+link client_1 to order_2--><path d="M196.55,451 C214.13,451 236.74,451 256.76,451 " fill="none" id="client_1-order_2" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0095177316b73f93136e407903991a6a]
+link client_2 to order_3--><path d="M196.72,634.33 C224.7,634.33 262,634.33 262,634.33 C262,634.33 262,687.47 262,716.54 " fill="none" id="client_2-order_3" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[85d5c1d6329340eb86cf173e0d070658]
+link client_1 to order_4--><path d="M167,469.27 C167,487.56 167,513 167,513 C167,513 216.94,513 256.73,513 " fill="none" id="client_1-order_4" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9c809c97352b083208d80bae5d592a8b]
+link client_2 to order_5--><path d="M196.65,622.67 C226.26,622.67 267,622.67 267,622.67 C267,622.67 267,617.39 267,611.28 " fill="none" id="client_2-order_5" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[51c2c92dd9fe3e783a84692eb9bafefc]
+link order_1 to cuirer_1--><path d="M346,325.71 C346,295.63 346,239 346,239 C346,239 477.39,239 538.46,239 " fill="none" id="order_1-cuirer_1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[621192014b4605e95b755dca9056bf3e]
+link order_2 to cuirer_2--><path d="M353.11,445.67 C406.95,445.67 492.58,445.67 538.13,445.67 " fill="none" id="order_2-cuirer_2" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7028b9d20269a6bf0818229347dc9038]
+link order_1 to card_paid--><path d="M353.11,339.33 C415.65,339.33 517,339.33 517,339.33 C517,339.33 517,334.11 517,328.08 " fill="none" id="order_1-card_paid" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[bb333afc9ab2d750436964972c4f12ea]
+link order_2 to money_paid_1--><path d="M353.13,457.33 C412.87,457.33 507,457.33 507,457.33 C507,457.33 507,485.28 507,504.71 " fill="none" id="order_2-money_paid_1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2e8a2a307138a248f204a160c9f091b2]
+link order_3 to money_paid_2--><path d="M305,753.11 C305,772.34 305,800 305,800 C305,800 423.48,800 501.7,800 " fill="none" id="order_3-money_paid_2" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d24dbe5c2ae13f910ada3fb773dfda07]
+link cuirer_3 to order_4--><path d="M197.24,531 C214.77,531 237.13,531 256.94,531 " fill="none" id="cuirer_3-order_4" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[532451c25c00a56c628b6f7264c96046]
+link cuirer_3 to order_5--><path d="M167,558.24 C167,573.57 167,593 167,593 C167,593 216.94,593 256.73,593 " fill="none" id="cuirer_3-order_5" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[bbbcf8c0b96e354be8ec396c7d61769e]
+link order_4 to two_cuirer_n--><path d="M353.41,522.5 C398.23,522.5 458,522.5 458,522.5 C458,522.5 458,557.63 458,577.94 " fill="none" id="order_4-two_cuirer_n" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><!--MD5=[6984f797a49b500ba7be9137e3b32f53]
+link order_5 to two_cuirer_n--><path d="M353.11,592 C370.52,592 391.24,592 412.85,592 " fill="none" id="order_5-two_cuirer_n" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><!--MD5=[8535db2dc274d4d4a9f7fea1844a1138]
+link order_1 to comp5--><path d="M353.11,350.67 C429.26,350.67 569,350.67 569,350.67 C569,350.67 569,356.27 569,362.66 " fill="none" id="order_1-comp5" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3d70aee3a6c8122c3d3ab00f3553f162]
+link web to client_1--><path d="M41,521.99 C41,495.98 41,451 41,451 C41,451 99.31,451 136.44,451 " fill="none" id="web-client_1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ee2aff9feff8df66d389aca0cedd459a]
+link web to client_2--><path d="M41,558.01 C41,584.02 41,629 41,629 C41,629 99.31,629 136.44,629 " fill="none" id="web-client_2" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d2af3dc6b02ac5f4f615258c53f88c0a]
+@startuml
+
+skinparam linetype ortho
+left to right direction
+
+
+note "Этому заказу ещё не назначен курьер" as no_cuirer_n
+note "Эти два заказа доставляются одним курьером" as two_cuirer_n
+
+object ":Веб-сайт" as web
+
+object ":Клиент" as client_1
+object ":Клиент" as client_2
+object ":Корзина" as basket_1
+object ":Корзина" as basket_2
+object "Заказ 1: Заказ" as order_1
+object "Заказ 2: Заказ" as order_2
+object "Заказ 3: Заказ" as order_3
+object "Заказ 4: Заказ" as order_4
+object "Заказ 5: Заказ" as order_5
+
+object ": Курьер" as cuirer_1
+object ": Курьер" as cuirer_2
+object ": Курьер" as cuirer_3
+object ":Оплата по карте" as card_paid
+object ":Оплата наличными" as money_paid_1
+object ":Оплата наличными" as money_paid_2
+
+object ":Компьютер" as comp1
+object ":Перефирия" as comp2
+object ":Комплектующее" as comp3
+object ":Перефирия" as comp4
+object ":Жёсткий диск" as comp5
+
+basket_1 - - comp1
+basket_1 - - comp2
+basket_1 - - comp3
+basket_2 - - comp4
+
+client_1 - - basket_1
+client_2 - - basket_2
+
+client_1 - - order_1
+client_1 - - order_2
+client_2 - - order_3
+client_1 - - order_4
+client_2 - - order_5
+
+order_1 - - cuirer_1
+order_2 - - cuirer_2
+order_1 - - card_paid
+order_2 - - money_paid_1
+order_3 - - money_paid_2
+
+cuirer_3 - - order_4
+cuirer_3 - - order_5
+
+order_4 .. two_cuirer_n
+order_5 .. two_cuirer_n
+
+order_3 .. no_cuirer_n
+
+order_1 - - comp5
+
+web - - client_1
+web - - client_2
+
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 13:22:07 MSK 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 21.0.4+7-Ubuntu-1ubuntu224.04
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

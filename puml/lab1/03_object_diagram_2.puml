@@ -1,0 +1,68 @@
+@startuml
+
+skinparam linetype ortho
+left to right direction
+
+
+note "Этому заказу ещё не назначен курьер" as no_cuirer_n
+note "Эти два заказа доставляются одним курьером" as two_cuirer_n
+
+object ":Веб-сайт" as web
+
+object ":Клиент" as client_1
+object ":Клиент" as client_2
+object ":Корзина" as basket_1
+object ":Корзина" as basket_2
+object "Заказ 1: Заказ" as order_1
+object "Заказ 2: Заказ" as order_2
+object "Заказ 3: Заказ" as order_3
+object "Заказ 4: Заказ" as order_4
+object "Заказ 5: Заказ" as order_5
+
+object ": Курьер" as cuirer_1
+object ": Курьер" as cuirer_2
+object ": Курьер" as cuirer_3
+object ":Оплата по карте" as card_paid
+object ":Оплата наличными" as money_paid_1
+object ":Оплата наличными" as money_paid_2
+
+object ":Компьютер" as comp1
+object ":Перефирия" as comp2
+object ":Комплектующее" as comp3
+object ":Перефирия" as comp4
+object ":Жёсткий диск" as comp5
+
+basket_1 -- comp1
+basket_1 -- comp2
+basket_1 -- comp3
+basket_2 -- comp4
+
+client_1 -- basket_1
+client_2 -- basket_2
+
+client_1 -- order_1
+client_1 -- order_2
+client_2 -- order_3
+client_1 -- order_4
+client_2 -- order_5
+
+order_1 -- cuirer_1
+order_2 -- cuirer_2
+order_1 -- card_paid
+order_2 -- money_paid_1
+order_3 -- money_paid_2
+
+cuirer_3 -- order_4
+cuirer_3 -- order_5
+
+order_4 .. two_cuirer_n
+order_5 .. two_cuirer_n
+
+order_3 .. no_cuirer_n
+
+order_1 -- comp5
+
+web -- client_1
+web -- client_2
+
+@enduml

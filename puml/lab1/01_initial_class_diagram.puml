@@ -1,0 +1,115 @@
+@startuml
+
+skinparam linetype ortho
+
+class "Веб-Сайт" as web_site
+
+class "Товар" as product
+
+class "Отдельные комплектующие" as parts
+class "Перефирия" as peripherals
+
+' Компьютер - слот компонент
+class "Компьютер" as computer
+
+class "Слот компонента" as slot
+class "Компонент" as component
+
+' Компоненты 
+class "ОЗУ" as component_memory
+class "Процессор" as component_cpu
+class "Жесткий диск" as component_hard
+
+' Виды ПК
+class "Cервер" as server
+class "Настольный ПК" as stand_pc
+class "Портативный ПК" as prot_pc
+class "Планшетный ПК" as tab_pc
+
+class "Клиент" as client
+class "Корзина" as basket
+
+class "Заказ" as order
+
+class "Оплата" as price
+class "Оплата наличными" as money_price
+class "Оплата по карте" as card_price
+
+class "Конфигурация" as config
+
+class "Поиск" as search
+class "Категория поиска" as search_category
+
+class "Поиск по типу" as type_search
+class "Поиск по производителю" as maker_search
+class "Поиск по названию" as name_search
+
+class "Результаты поиска" as search_results
+
+class "Производитель" as maker
+
+class "Курьер" as courier 
+
+enum "Тип компьютера" as computer_kind
+
+courier "0..1" -- "*" order
+
+product "*" -- "*" maker
+maker_search "0" -- "*" maker
+
+type_search "0" -- "1" computer_kind
+
+search_category <|-- type_search
+search_category <|-- maker_search
+search_category <|-- name_search
+
+product <|-- component
+
+web_site "0" -- "1" search
+
+search "0" -- "*" search_category
+search "0" -- "*" search_results
+search_results "0" -- "*" search_category
+
+search_results "0" -- "*" product
+
+web_site "1" -- "*" client
+web_site "0" -- "*" config
+
+config "0" -- "1" computer
+
+price <|-- money_price
+price <|-- card_price
+
+order "0" -- "1" price
+
+
+product <|-- computer
+product <|-- parts
+product <|-- peripherals
+
+computer "1" -- "0..*" slot
+
+slot "1" -- "0..1" component
+
+component <|-- component_memory
+component <|-- component_hard
+component <|-- component_cpu
+
+computer "0" -- "1" computer_kind
+
+computer <|-- server
+computer <|-- stand_pc
+computer <|-- prot_pc
+computer <|-- tab_pc
+
+
+client "1" -- "1" basket
+basket "0" -- "*" product
+
+client "1" -- "*" order
+order "0" -- "*" product
+
+client "0" -- "1" search_results
+
+@enduml

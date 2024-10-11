@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="467px" preserveAspectRatio="none" style="width:1002px;height:467px;" version="1.1" viewBox="0 0 1002 467" width="1002px" zoomAndPan="magnify"><defs><filter height="300%" id="f1d7drozizn50n" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#f1d7drozizn50n)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="70" x="495.5" y="104"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="56" x="502.5" y="118.8281">:Веб-сайт</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="496.5" x2="564.5" y1="124.3441" y2="124.3441"/><rect fill="#FEFECE" filter="url(#f1d7drozizn50n)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="253" x="6" y="200"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="239" x="13" y="214.8281">Для домашних серверов: Конфигурация</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="258" y1="220.3441" y2="220.3441"/><rect fill="#FEFECE" filter="url(#f1d7drozizn50n)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="221" x="294" y="200"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="207" x="301" y="214.8281">Компьютер для игр: Конфигурация</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="295" x2="514" y1="220.3441" y2="220.3441"/><rect fill="#FEFECE" filter="url(#f1d7drozizn50n)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="214" x="550.5" y="200"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="200" x="557.5" y="214.8281">Офисная машина: Конфигурация</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="551.5" x2="763.5" y1="220.3441" y2="220.3441"/><rect fill="#FEFECE" filter="url(#f1d7drozizn50n)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="154" x="97.5" y="296"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="140" x="104.5" y="310.8281">Прототип 1: Компьютер</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="98.5" x2="250.5" y1="316.3441" y2="316.3441"/><rect fill="#FEFECE" filter="url(#f1d7drozizn50n)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="154" x="327.5" y="296"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="140" x="334.5" y="310.8281">Прототип 2: Компьютер</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="328.5" x2="480.5" y1="316.3441" y2="316.3441"/><rect fill="#FEFECE" filter="url(#f1d7drozizn50n)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="154" x="580.5" y="296"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="140" x="587.5" y="310.8281">Прототип 3: Компьютер</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="581.5" x2="733.5" y1="316.3441" y2="316.3441"/><rect fill="#FEFECE" filter="url(#f1d7drozizn50n)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="60" x="552.5" y="8"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="46" x="559.5" y="22.8281">:Клиент</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="553.5" x2="611.5" y1="28.3441" y2="28.3441"/><rect fill="#FEFECE" filter="url(#f1d7drozizn50n)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="67" x="731" y="104"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="53" x="738" y="118.8281">:Корзина</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="732" x2="797" y1="124.3441" y2="124.3441"/><rect fill="#FEFECE" filter="url(#f1d7drozizn50n)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="192" x="799.5" y="200"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="178" x="806.5" y="214.8281">(Копия) Прототип 3: Копьютер</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="800.5" x2="990.5" y1="220.3441" y2="220.3441"/><path d="M76.5,392 L76.5,455.118 L732.5,455.118 L732.5,402 L722.5,392 L76.5,392 " fill="#FBFB77" filter="url(#f1d7drozizn50n)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M722.5,392 L722.5,402 L732.5,402 L722.5,392 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="363" x="82.5" y="410.897">Эти объекты компьютеров используются как прототипы.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="607" x="82.5" y="428.603">Экземпляры конфигурации используются как прототипы для пользовательских конфигураций.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="635" x="82.5" y="446.309">Таким образом пользователь вволе менять предустановленные конфигурации, как ему вздумается.</text><!--MD5=[d1367f5aa194df22b5aad01985fe56c7]
+link web to server--><path d="M495.18,122 C397.77,122 132.5,122 132.5,122 C132.5,122 132.5,172.13 132.5,199.94 " fill="none" id="web-server" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e9c6e9756f25576743353c63f70a77a7]
+link web to game_station--><path d="M505.25,140.06 C505.25,157.11 505.25,182.56 505.25,199.7 " fill="none" id="web-game_station" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[462dd01e5666dc36146e241411b10e62]
+link web to office_station--><path d="M558,140.06 C558,157.11 558,182.56 558,199.7 " fill="none" id="web-office_station" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c47ae2fe588cf34e00518a60a7b067b9]
+link server to computer_proto_1--><path d="M174.5,236.06 C174.5,253.11 174.5,278.56 174.5,295.7 " fill="none" id="server-computer_proto_1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[eca0853c6d74ab4a383b21d299a494d7]
+link game_station to computer_proto_2--><path d="M404.5,236.06 C404.5,253.11 404.5,278.56 404.5,295.7 " fill="none" id="game_station-computer_proto_2" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[23cbaf97bf1429fc332c32ccad27c9ca]
+link office_station to computer_proto_3--><path d="M657.5,236.06 C657.5,253.11 657.5,278.56 657.5,295.7 " fill="none" id="office_station-computer_proto_3" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7f1b0c38fbf679449d94076543ec1ba1]
+link client to basket--><path d="M589,44.06 C589,71.87 589,122 589,122 C589,122 679.66,122 730.66,122 " fill="none" id="client-basket" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[6e58a498dce230a9f978b6e8ed38240c]
+link basket to computer_to_buy--><path d="M781.25,140.06 C781.25,167.87 781.25,218 781.25,218 C781.25,218 788.5,218 799.35,218 " fill="none" id="basket-computer_to_buy" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[70c2e979b8e18863a4d5b49b690c6934]
+link computer_to_buy to computer_proto_3--><path d="M895.5,236.06 C895.5,263.87 895.5,314 895.5,314 C895.5,314 804.27,314 734.77,314 " fill="none" id="computer_to_buy-computer_proto_3" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><!--MD5=[423569982ccb806376116026903c5019]
+link computer_proto_1 to protoNote--><path d="M174.5,332.08 C174.5,348.24 174.5,372.28 174.5,391.66 " fill="none" id="computer_proto_1-protoNote" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><!--MD5=[7c121b8fa1e8d613183667b692045639]
+link computer_proto_2 to protoNote--><path d="M404.5,332.08 C404.5,348.24 404.5,372.28 404.5,391.66 " fill="none" id="computer_proto_2-protoNote" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><!--MD5=[c30e62a8acb6d20fdd7470de19faa23f]
+link computer_proto_3 to protoNote--><path d="M656.5,332.08 C656.5,348.24 656.5,372.28 656.5,391.66 " fill="none" id="computer_proto_3-protoNote" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><!--MD5=[5a1775361792d5fa491a6eb84c3df9c9]
+link client to web--><path d="M559,44.06 C559,61.11 559,86.56 559,103.7 " fill="none" id="client-web" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[830fc592da6d9a1435fe033843e59e7d]
+@startuml
+
+skinparam linetype ortho
+
+object ":Веб-сайт" as web
+object "Для домашних серверов: Конфигурация" as server
+object "Компьютер для игр: Конфигурация" as game_station
+object "Офисная машина: Конфигурация" as office_station
+
+object "Прототип 1: Компьютер" as computer_proto_1
+object "Прототип 2: Компьютер" as computer_proto_2
+object "Прототип 3: Компьютер" as computer_proto_3
+
+object ":Клиент" as client
+object ":Корзина" as basket
+object "(Копия) Прототип 3: Копьютер" as computer_to_buy
+
+web - - server
+web - - game_station
+web - - office_station
+
+server - - computer_proto_1
+game_station - - computer_proto_2
+office_station - - computer_proto_3
+
+client - - basket
+basket - - computer_to_buy
+computer_to_buy .. computer_proto_3
+
+note "Эти объекты компьютеров используются как прототипы. \nЭкземпляры конфигурации используются как прототипы для пользовательских конфигураций. \nТаким образом пользователь вволе менять предустановленные конфигурации, как ему вздумается." as protoNote
+
+computer_proto_1 .. protoNote
+computer_proto_2 .. protoNote
+computer_proto_3 .. protoNote
+
+client - - web
+
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 13:22:07 MSK 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 21.0.4+7-Ubuntu-1ubuntu224.04
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

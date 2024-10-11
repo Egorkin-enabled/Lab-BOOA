@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="343px" preserveAspectRatio="none" style="width:692px;height:343px;" version="1.1" viewBox="0 0 692 343" width="692px" zoomAndPan="magnify"><defs><filter height="300%" id="fq3kq5w312xt8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FEFECE" filter="url(#fq3kq5w312xt8)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="70" x="209.5" y="8"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="56" x="216.5" y="22.8281">:Веб-сайт</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="210.5" x2="278.5" y1="28.3441" y2="28.3441"/><rect fill="#FEFECE" filter="url(#fq3kq5w312xt8)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="53" x="6" y="104"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="39" x="13" y="118.8281">:Поиск</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="58" y1="124.3441" y2="124.3441"/><rect fill="#FEFECE" filter="url(#fq3kq5w312xt8)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="60" x="426.5" y="104"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="46" x="433.5" y="118.8281">:Клиент</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="427.5" x2="485.5" y1="124.3441" y2="124.3441"/><rect fill="#FEFECE" filter="url(#fq3kq5w312xt8)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="129" x="392" y="200"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="115" x="399" y="214.8281">:Результаты поиска</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="393" x2="520" y1="220.3441" y2="220.3441"/><rect fill="#FEFECE" filter="url(#fq3kq5w312xt8)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="113" x="195" y="296"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="99" x="202" y="310.8281">:Поиск по имени</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="196" x2="307" y1="316.3441" y2="316.3441"/><rect fill="#FEFECE" filter="url(#fq3kq5w312xt8)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="100" x="343.5" y="296"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="86" x="350.5" y="310.8281">:Поиск по типу</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="344.5" x2="442.5" y1="316.3441" y2="316.3441"/><rect fill="#FEFECE" filter="url(#fq3kq5w312xt8)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="84" x="478.5" y="296"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="485.5" y="310.8281">:Компьютер</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="479.5" x2="561.5" y1="316.3441" y2="316.3441"/><rect fill="#FEFECE" filter="url(#fq3kq5w312xt8)" height="36.3441" style="stroke: #A80036; stroke-width: 1.5;" width="84" x="597.5" y="296"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="604.5" y="310.8281">:Компьютер</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="598.5" x2="680.5" y1="316.3441" y2="316.3441"/><path d="M93.5,108 L93.5,135.706 L391.5,135.706 L391.5,118 L381.5,108 L93.5,108 " fill="#FBFB77" filter="url(#fq3kq5w312xt8)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M381.5,108 L381.5,118 L391.5,118 L381.5,108 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="277" x="99.5" y="126.897">К поиску клиент обращается через Веб-сайт</text><!--MD5=[b284b34572153b2dfd49bd6562e56b30]
+link web to client--><path d="M279.51,26 C339.72,26 456.5,26 456.5,26 C456.5,26 456.5,76.13 456.5,103.94 " fill="none" id="web-client" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[6db7285572889ae8041b9b8ac62107e0]
+link web to search--><path d="M209.49,26 C149.28,26 32.5,26 32.5,26 C32.5,26 32.5,76.13 32.5,103.94 " fill="none" id="web-search" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[bcfdbb499d6f19361d5538d0d8579659]
+link search_results to search_name--><path d="M391.92,218 C331.83,218 251.5,218 251.5,218 C251.5,218 251.5,268.13 251.5,295.94 " fill="none" id="search_results-search_name" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7acb1846a2a0f574fd468aaec7164af4]
+link search_results to search_kind--><path d="M417.75,236.06 C417.75,253.11 417.75,278.56 417.75,295.7 " fill="none" id="search_results-search_kind" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[76a04f4f4114011c277b5bfc94d997ab]
+link client to search_results--><path d="M456.5,140.06 C456.5,157.11 456.5,182.56 456.5,199.7 " fill="none" id="client-search_results" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[416a28bb610b82b54c17b7b940ae8137]
+link search_results to computer_1--><path d="M499.75,236.06 C499.75,253.11 499.75,278.56 499.75,295.7 " fill="none" id="search_results-computer_1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2156558656dbc21871f8e6e607eb6572]
+link search_results to computer_2--><path d="M521.02,218 C573.71,218 639.5,218 639.5,218 C639.5,218 639.5,268.13 639.5,295.94 " fill="none" id="search_results-computer_2" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[63fdae5001ac770eba40f818793270c9]
+link through_note to client--><path d="M391.71,122 C404.45,122 416.24,122 426.18,122 " fill="none" id="through_note-client" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><!--MD5=[7456e84523df9ee3e318cfcaf38d231e]
+link search to through_note--><path d="M59.1,122 C68.81,122 80.6,122 93.47,122 " fill="none" id="search-through_note" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><!--MD5=[bc382b28380ff810a293b1a91bbbb24f]
+@startuml
+
+skinparam linetype ortho
+
+
+object ":Веб-сайт" as web
+
+object ":Поиск" as search
+
+object ":Клиент" as client
+
+object ":Результаты поиска" as search_results
+
+object ":Поиск по имени" as search_name
+object ":Поиск по типу" as search_kind
+
+object ":Компьютер" as computer_1
+object ":Компьютер" as computer_2
+
+web - - client
+web - - search
+
+search_results - - search_name
+search_results - - search_kind
+
+client - - search_results
+
+search_results - - computer_1
+search_results - - computer_2
+
+note "К поиску клиент обращается через Веб-сайт" as through_note
+
+through_note .right. client
+through_note .left. search
+
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 13:22:07 MSK 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 21.0.4+7-Ubuntu-1ubuntu224.04
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

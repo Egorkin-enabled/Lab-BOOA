@@ -1,0 +1,36 @@
+@startuml
+
+skinparam linetype ortho
+
+
+object ":Веб-сайт" as web
+
+object ":Поиск" as search
+
+object ":Клиент" as client
+
+object ":Результаты поиска" as search_results
+
+object ":Поиск по имени" as search_name
+object ":Поиск по типу" as search_kind
+
+object ":Компьютер" as computer_1
+object ":Компьютер" as computer_2
+
+web -- client
+web -- search
+
+search_results -- search_name
+search_results -- search_kind
+
+client -- search_results
+
+search_results -- computer_1
+search_results -- computer_2
+
+note "К поиску клиент обращается через Веб-сайт" as through_note
+
+through_note .right. client
+through_note .left. search
+
+@enduml
