@@ -1,0 +1,57 @@
+@startuml
+
+left to right direction
+
+"Клиент" as client
+
+"Складская система" as storage
+"Курьер" as cuirer
+"Работник магазина" as salesman
+
+rectangle Система {
+    (Искать товары) as do_search
+    (Оформить заказ) as do_order
+    (Назначить курьера) as do_select_cuirer
+    (Обновить объёмы товара) as do_update_counts
+    (Сменить статус заказа) as do_state
+    (Добавить товары в корзину) as do_basket
+    (Подобрать комплектующие) as do_components
+
+    (Провести онлайн оплату) as do_pay 
+
+    (Отметить заказ "Офомлен") as do_state_registered
+    (Отметить заказ "Оплачен") as do_state_prushcased
+    (Отметить заказ "В очереди") as do_state_chained
+    (Отметить заказ "Собран") as do_state_built
+    (Отметить заказ "Отправлен") as do_state_sent
+    (Отметить заказ "Выполнен") as do_state_completed
+}
+
+client -- do_search
+client -- do_order
+client -- do_basket
+client -- do_components
+
+storage -- do_select_cuirer
+storage -- do_update_counts
+storage -- do_state_built
+
+cuirer -- do_state_sent
+
+salesman -- do_state_completed
+
+do_order .> do_state_registered: <<включает>>
+do_order <. do_pay: <<расширяет>>
+do_pay .> do_state_prushcased: <<включает>>
+
+do_state_completed .> do_state_prushcased: <<включает>>
+
+do_state <|-- do_state_registered
+do_state <|-- do_state_prushcased
+do_state <|-- do_state_chained
+do_state <|-- do_state_built
+do_state <|-- do_state_sent
+do_state <|-- do_state_completed
+
+
+@enduml

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="959px" preserveAspectRatio="none" style="width:812px;height:959px;" version="1.1" viewBox="0 0 812 959" width="812px" zoomAndPan="magnify"><defs><filter height="300%" id="f1m603jw2felp7" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[38b2fc596d7fffb73a8fa44d4c6f0822]
+cluster Система--><rect fill="#FFFFFF" filter="url(#f1m603jw2felp7)" height="691" style="stroke: #000000; stroke-width: 1.5;" width="618" x="183" y="24"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="62" x="461" y="40.9659">Система</text><ellipse cx="309.6759" cy="389.0352" fill="#FEFECE" filter="url(#f1m603jw2felp7)" rx="73.1759" ry="17.0352" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="103" x="258.1759" y="395.0691">Искать товары</text><ellipse cx="670.9233" cy="178.7847" fill="#FEFECE" filter="url(#f1m603jw2felp7)" rx="76.9233" ry="17.7847" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="113" x="614.4233" y="184.8186">Оформить заказ</text><ellipse cx="309.6357" cy="539.0271" fill="#FEFECE" filter="url(#f1m603jw2felp7)" rx="85.6357" ry="19.5271" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="135" x="242.1357" y="545.0611">Назначить курьера</text><ellipse cx="309.4034" cy="616.7807" fill="#FEFECE" filter="url(#f1m603jw2felp7)" rx="104.4034" ry="23.2807" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="179" x="219.9034" y="622.8146">Обновить объёмы товара</text><ellipse cx="309.4134" cy="462.7827" fill="#FEFECE" filter="url(#f1m603jw2felp7)" rx="94.4134" ry="21.2827" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="231.4134" y="468.8166">Сменить статус заказа</text><ellipse cx="309.6321" cy="228.0264" fill="#FEFECE" filter="url(#f1m603jw2felp7)" rx="110.6321" ry="24.5264" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="193" x="213.1321" y="234.0604">Добавить товары в корзину</text><ellipse cx="309.7364" cy="311.8473" fill="#FEFECE" filter="url(#f1m603jw2felp7)" rx="109.7364" ry="24.3473" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="191" x="214.2364" y="317.8812">Подобрать комплектующие</text><ellipse cx="670.8281" cy="85.1656" fill="#FEFECE" filter="url(#f1m603jw2felp7)" rx="101.3281" ry="22.6656" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="172" x="584.8281" y="91.1996">Провести онлайн оплату</text><ellipse cx="670.8964" cy="339.0793" fill="#FEFECE" filter="url(#f1m603jw2felp7)" rx="108.3964" ry="24.0793" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="188" x="576.8964" y="345.1132">Отметить заказ "Офомлен"</text><ellipse cx="671.0055" cy="255.9011" fill="#FEFECE" filter="url(#f1m603jw2felp7)" rx="107.5055" ry="23.9011" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="186" x="578.0055" y="261.9351">Отметить заказ "Оплачен"</text><ellipse cx="670.9789" cy="422.7958" fill="#FEFECE" filter="url(#f1m603jw2felp7)" rx="111.9789" ry="24.7958" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="196" x="572.9789" y="428.8297">Отметить заказ "В очереди"</text><ellipse cx="671.1427" cy="505.9285" fill="#FEFECE" filter="url(#f1m603jw2felp7)" rx="102.6427" ry="22.9285" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="175" x="583.6427" y="511.9625">Отметить заказ "Собран"</text><ellipse cx="671.2325" cy="589.2465" fill="#FEFECE" filter="url(#f1m603jw2felp7)" rx="114.2325" ry="25.2465" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="201" x="570.7325" y="595.2804">Отметить заказ "Отправлен"</text><ellipse cx="671.0295" cy="674.2059" fill="#FEFECE" filter="url(#f1m603jw2felp7)" rx="111.5295" ry="24.7059" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="195" x="573.5295" y="680.2399">Отметить заказ "Выполнен"</text><!--MD5=[4a65e84059005d12693a083370a06717]
+entity client--><ellipse cx="71" cy="237.5" fill="#FEFECE" filter="url(#f1m603jw2felp7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M71,245.5 L71,272.5 M58,253.5 L84,253.5 M71,272.5 L58,287.5 M71,272.5 L84,287.5 " fill="none" filter="url(#f1m603jw2felp7)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="46" y="307.9659">Клиент</text><!--MD5=[a5a6ae0ba01c8a4589ab26bd33e87aad]
+entity storage--><ellipse cx="71" cy="584.5" fill="#FEFECE" filter="url(#f1m603jw2felp7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M71,592.5 L71,619.5 M58,600.5 L84,600.5 M71,619.5 L58,634.5 M71,619.5 L84,634.5 " fill="none" filter="url(#f1m603jw2felp7)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="130" x="6" y="654.9659">Складская система</text><!--MD5=[64b9c0dcfba9446d594b117302a5f733]
+entity cuirer--><ellipse cx="309.5" cy="756.5" fill="#FEFECE" filter="url(#f1m603jw2felp7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M309.5,764.5 L309.5,791.5 M296.5,772.5 L322.5,772.5 M309.5,791.5 L296.5,806.5 M309.5,791.5 L322.5,806.5 " fill="none" filter="url(#f1m603jw2felp7)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="284.5" y="826.9659">Курьер</text><!--MD5=[a070e69447d0aef5eeeae144811cfec6]
+entity salesman--><ellipse cx="309.5" cy="875.5" fill="#FEFECE" filter="url(#f1m603jw2felp7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M309.5,883.5 L309.5,910.5 M296.5,891.5 L322.5,891.5 M309.5,910.5 L296.5,925.5 M309.5,910.5 L322.5,925.5 " fill="none" filter="url(#f1m603jw2felp7)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="133" x="243" y="945.9659">Работник магазина</text><!--MD5=[dc0b4a611c92898091520766ddf4657f]
+link client to do_search--><path d="M96.07,294.74 C115.69,313.56 144.97,338.73 175,354 C198.07,365.73 225.43,373.79 249.36,379.19 " fill="none" id="client-do_search" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[87f228fe7911b1b491a9941e300e6c1b]
+link client to do_order--><path d="M96.37,241.95 C115.49,222.18 143.99,197.29 175,186 C324.21,131.68 515.86,152.12 610.99,167.7 " fill="none" id="client-do_order" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[80a34fe6500f84b7d6b28cf8556da1d1]
+link client to do_basket--><path d="M96.42,265.66 C126.1,260.39 177.79,251.21 222.71,243.23 " fill="none" id="client-do_basket" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[22111f3bb7cec915d852fefbe78ce194]
+link client to do_components--><path d="M96.42,274.34 C126.22,279.63 178.21,288.86 223.25,296.86 " fill="none" id="client-do_components" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[94c9c47838db57c33866c28540b8e7bd]
+link storage to do_select_cuirer--><path d="M136.16,590.22 C148.94,585.24 162.32,580.27 175,576 C199.73,567.68 227.48,559.76 251.25,553.41 " fill="none" id="storage-do_select_cuirer" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e8afa41dae27ca54f844a1a1bbb3e87b]
+link storage to do_update_counts--><path d="M136,617 C157.2,617 181.38,617 204.78,617 " fill="none" id="storage-do_update_counts" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[23277665b69068125e8da586705529d1]
+link storage to do_state_built--><path d="M136.26,646.87 C148.85,651.49 162.15,655.54 175,658 C281.94,678.5 317.44,694.59 420,658 C494.07,631.57 488.47,584.58 557,546 C572.5,537.27 590.26,529.91 607.03,523.98 " fill="none" id="storage-do_state_built" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[47614c3949805534c76e24ae4a08d3b5]
+link cuirer to do_state_sent--><path d="M334.53,788.14 C378.67,785.26 473.05,772.88 527,720 C556.51,691.08 528.3,661.73 557,632 C567.13,621.51 580.09,613.54 593.6,607.5 " fill="none" id="cuirer-do_state_sent" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[4f06afa6bf69d10d2dc8804143497f3a]
+link salesman to do_state_completed--><path d="M376.06,874.29 C390.7,866.31 406.03,857.61 420,849 C501.4,798.81 592.3,732.4 638.83,697.59 " fill="none" id="salesman-do_state_completed" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[afef64c7b4d44a1c68410d642e01e008]
+link do_order to do_state_registered--><path d="M615.99,191.67 C543.18,210.93 429.2,251.26 476,306.5 C497.37,331.73 530.28,342.57 563.01,346.28 " fill="none" id="do_order-&gt;do_state_registered" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="568.26,346.82,559.7055,341.9394,563.2851,346.3197,558.9049,349.8993,568.26,346.82" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="75" x="451" y="302.397">«включает»</text><!--MD5=[6d8eb90ce6c81760df34eb8a0e9203f0]
+reverse link do_order to do_pay--><path d="M671,155.69 C671,141.04 671,122.25 671,107.72 " fill="none" id="do_order&lt;-do_pay" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="671,160.88,675,151.88,671,155.88,667,151.88,671,160.88" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="83" x="617" y="139.647">«расширяет»</text><!--MD5=[265abcfcaf06f323f248c3a3be92cd2e]
+link do_pay to do_state_prushcased--><path d="M589.39,71.53 C549.25,69.9 503.66,76.46 476,107.5 C428.07,161.28 528.8,208.87 602.54,234.94 " fill="none" id="do_pay-&gt;do_state_prushcased" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="607.35,236.62,600.1858,229.8617,602.6329,234.9619,597.5328,237.409,607.35,236.62" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="75" x="451" y="122.397">«включает»</text><!--MD5=[eeb79ac5be900d6c8442eb245914fd4c]
+link do_state_completed to do_state_prushcased--><path d="M597.78,655.5 C583.14,649.41 568.68,641.42 557,631 C498.25,578.61 494.52,550 476,473.5 C457.78,398.24 499.05,347.88 557,297 C567.21,288.04 579.52,280.99 592.22,275.46 " fill="none" id="do_state_completed-&gt;do_state_prushcased" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="596.91,273.49,587.0636,273.27,592.2967,275.4181,590.1486,280.6513,596.91,273.49" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="75" x="451" y="469.397">«включает»</text><!--MD5=[fb8297646c561197a8f1efe5aa3f3683]
+reverse link do_state to do_state_registered--><path d="M381.3,438.58 C448.62,415.36 548.67,380.85 611.56,359.16 " fill="none" id="do_state&lt;-do_state_registered" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="383.58,445.2,362.39,445.1,379.01,431.96,383.58,445.2" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3f7e4fa28f2ab9ece8fea538d5de9611]
+reverse link do_state to do_state_prushcased--><path d="M399.47,439.97 C407.15,435.32 414.19,429.72 420,423 C462.76,373.55 401.49,322.83 450,279 C485.05,247.33 537.2,240.79 581.94,242.53 " fill="none" id="do_state&lt;-do_state_prushcased" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="402.32,446.37,381.29,448.97,396.11,433.82,402.32,446.37" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[8909dcccc687c935cb994d6cedd822be]
+reverse link do_state to do_state_chained--><path d="M414.81,451.39 C463.79,445.94 521.9,439.48 570.28,434.1 " fill="none" id="do_state&lt;-do_state_chained" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="415.44,458.37,394.79,453.62,413.89,444.45,415.44,458.37" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d5712a23aa8ab5d832e871ef6c8e1816]
+reverse link do_state to do_state_built--><path d="M411.67,476.24 C424.57,477.87 437.59,479.49 450,481 C492.26,486.13 539.13,491.5 578.71,495.94 " fill="none" id="do_state&lt;-do_state_built" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="410.57,483.15,391.62,473.68,412.34,469.27,410.57,483.15" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b6003f7b4d7aeb697058e6ce688e95b2]
+reverse link do_state to do_state_sent--><path d="M381.15,487.76 C447.77,511.11 546.54,545.73 609.58,567.82 " fill="none" id="do_state&lt;-do_state_sent" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="378.57,494.27,362.01,481.05,383.2,481.06,378.57,494.27" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e6220d9a5818f15eafbcf57237aae025]
+reverse link do_state to do_state_completed--><path d="M393.96,486.32 C403.21,490.73 412.12,495.92 420,502 C438.74,516.46 433.88,528.67 450,546 C491.35,590.48 504.22,600.96 557,631 C572.51,639.83 590.17,647.53 606.86,653.89 " fill="none" id="do_state&lt;-do_state_completed" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="391.1,492.71,375.34,478.55,396.49,479.79,391.1,492.71" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7b9076be079291952f243359c172e7b8]
+@startuml
+
+left to right direction
+
+"Клиент" as client
+
+"Складская система" as storage
+"Курьер" as cuirer
+"Работник магазина" as salesman
+
+rectangle Система {
+    (Искать товары) as do_search
+    (Оформить заказ) as do_order
+    (Назначить курьера) as do_select_cuirer
+    (Обновить объёмы товара) as do_update_counts
+    (Сменить статус заказа) as do_state
+    (Добавить товары в корзину) as do_basket
+    (Подобрать комплектующие) as do_components
+
+    (Провести онлайн оплату) as do_pay 
+
+    (Отметить заказ "Офомлен") as do_state_registered
+    (Отметить заказ "Оплачен") as do_state_prushcased
+    (Отметить заказ "В очереди") as do_state_chained
+    (Отметить заказ "Собран") as do_state_built
+    (Отметить заказ "Отправлен") as do_state_sent
+    (Отметить заказ "Выполнен") as do_state_completed
+}
+
+client - - do_search
+client - - do_order
+client - - do_basket
+client - - do_components
+
+storage - - do_select_cuirer
+storage - - do_update_counts
+storage - - do_state_built
+
+cuirer - - do_state_sent
+
+salesman - - do_state_completed
+
+do_order .> do_state_registered: <<включает>>
+do_order <. do_pay: <<расширяет>>
+do_pay .> do_state_prushcased: <<включает>>
+
+do_state_completed .> do_state_prushcased: <<включает>>
+
+do_state <|- - do_state_registered
+do_state <|- - do_state_prushcased
+do_state <|- - do_state_chained
+do_state <|- - do_state_built
+do_state <|- - do_state_sent
+do_state <|- - do_state_completed
+
+
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 13:22:07 MSK 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 21.0.4+7-Ubuntu-1ubuntu224.04
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
