@@ -1,0 +1,175 @@
+@startuml
+
+'skinparam linetype ortho
+left to right direction
+
+note "Оставлем связь '1 к 1' намеренно: \nТак мы подчёркиваем, что товары, \nподлежащие к покупке лежат именно \nв корзине клиента." as note_warn_1_1
+
+enum "Сортировка по цене" as price_sort {
+    + Возрастающе
+    + Убывающе
+}
+
+class "Адрес" as address {
+    + Географические координаты
+    + Текстовое представление
+}
+
+class "Система" as web_site 
+
+class "Товар" as product {
+    + Название
+    + Стоимость
+}
+
+class "Перефирия" as peripherals
+
+' Компьютер - слот компонент
+class "Компьютер" as computer
+
+class "Слот" as slot
+class "Комплектующее" as component
+
+' Компоненты 
+class "ОЗУ" as component_memory
+class "Процессор" as component_cpu
+class "Жесткий диск" as component_hard
+
+' Виды ПК
+class "Cерверный ПК" as server
+class "Настольный ПК" as stand_pc
+class "Портативный ПК" as prot_pc
+class "Планшетный ПК" as tab_pc
+
+class "Клиент" as client
+class "Корзина" as basket
+
+class "Заказ" as order {
+    + Оплачен?
+    + Заметки клиента
+}
+
+enum "Стадия формирования закза" as order_stage {
+    + Оформлен
+    + В очереди
+    + Собран
+    + Отправлен
+    + Выполнен
+}
+
+class "Оплата" as price {
+    + Сумма чека
+}
+
+class "Оплата наличными" as money_price
+class "Оплата по карте" as card_price
+
+class "Конфигурация" as config
+
+class "Поиск" as search
+class "Категория поиска" as search_category
+
+class "Поиск по типу" as type_search
+class "Поиск по производителю" as maker_search
+class "Поиск по названию" as name_search
+
+class "Результат поиска" as search_results
+
+class "Сотрудник магазина" as salesman
+
+class "Производитель" as maker {
+    + Название
+}
+
+class "Курьер" as courier 
+
+enum "Тип компьютера" as computer_kind {
+    + Серверный ПК
+    + Настольный ПК
+    + Планшетный ПК
+    + Портативный ПК
+}
+
+web_site "1" --> "*" salesman: "Знает о"
+
+web_site "0" --> "* Все заказы" order: "Регистрирует все"
+
+courier "1" -- "0..1 Текущий заказ" order: "Доставляет"
+
+search "0" --> "1" price_sort: "Включает в себя"
+search_results "0" --> "1" price_sort: "Включает в себя"
+
+web_site "0" --> "*" courier: "Знает о"
+
+order "0" --> "1" order_stage: "Включает в себя"
+order "0" --> "1" address: "Доставляется по"
+
+maker "0" --> "1" address: "Находится по"
+
+product "0" --> "0..*" product: "Включает в себя"
+
+courier "0..1" --> "*" order: "Планирует доставить"
+
+product "*" <-- "*" maker: "Производит"
+maker_search "0" --> "*" maker: "Ищет его товары" 
+
+type_search "0" --> "1" computer_kind: "Ищет указанные"
+
+search_category <|-- type_search
+search_category <|-- maker_search
+search_category <|-- name_search
+
+product <|-- component
+
+web_site "0" --> "1" search: "Включает в себя"
+
+search "0" --> "*" search_category: "Исполняет поиск с использованием"
+search "0" --> "*" search_results: "Поставляет"
+search_results "0" --> "*" search_category: "Ссылается на"
+
+search_results "0" --> "*" product: "Ссылается на"
+
+web_site "1" --> "*" client: "Помнит о"
+web_site "0" --> "*" config: "Содержит"
+
+config "0" --> "1" computer: "Содержит"
+
+price <|-- money_price
+price <|-- card_price
+
+order "0" --> "1" price: "Содержит"
+
+
+product <|-- computer
+product <|-- peripherals
+
+computer "1" --> "0..*" slot: "Содержит"
+
+slot "1" <-- "0..1" component: "Установлен в"
+
+component <|-- component_memory
+component <|-- component_hard
+component <|-- component_cpu
+
+computer "0" --> "1" computer_kind: "Включает в себя"
+
+computer <|-- server
+computer <|-- stand_pc
+computer <|-- prot_pc
+computer <|-- tab_pc
+
+
+client "1" --> "1" basket: "Обладает"
+basket .. note_warn_1_1
+client .. note_warn_1_1
+
+basket "0" --> "*" product: "Ссылается на"
+
+client "1" --> "*" order: "Имеет"
+order "0" --> "*" product: "Содержит"
+
+client "0" --> "1" search_results: "Использует"
+
+
+
+@enduml
