@@ -1,0 +1,139 @@
+@startuml
+
+actor "Пользователь" as user
+boundary "Сайт" as web
+control "Система" as system
+entity "Поиск" as search
+entity "Результаты поиска" as search_result
+entity "Корзина" as basket
+
+user -> web: Открыть сайт
+par
+web -> system: Запросить список комплектов
+system --> web: Список комплектов
+else
+web -> system: Запросить список производителей
+system --> web: Список производителей
+end
+
+web -> web: Открыть «Сборка ПК»
+web --> user
+
+group seq
+
+user -> web: Открыть «Сборка ПК»
+
+opt
+alt
+
+user -> web: Выбрать тип ПК
+web --> user
+
+else
+
+user -> web: Выбрать готовый комплект
+
+web -> system: Запросить содержимое комплекта
+system --> web: Вернуть сожержимое
+web -> web: Обновить тип
+web -> web: Заполнить слоты
+web --> user
+
+end
+
+else
+
+loop для всех слотов
+
+opt
+alt
+
+user -> web: Заполнить слот
+web -> web: Отобразить меню Выбрать
+web -> system: Запросить комплектующие под слот
+system -> system: Обработать запрос
+system --> web: Список комплектующих
+web --> user: Отобразить комплектующие
+user --> web: Сделать выбор
+web --> web: Заменить слот
+web --> web: Отобразить меню Сборка ПК
+web --> user 
+
+else
+
+user -> web: Использовать автоподбор
+web -> system: Запросить автоподбор
+system --> web
+web --> user
+
+
+end
+end
+end
+
+user -> web: Нажать «Добавить (ПК) в корзину»
+web -> system: Запросить добавить в корзину
+system -> basket: Добавить(товар)
+basket --> system
+system --> web
+
+end
+
+else
+
+opt
+
+loop пока комплектующие не собраны
+
+alt
+
+user -> web: Открыть «Комплектующие & Переферия»
+web -> system: Запросить список комплектующих
+system --> web: Вернуть список комплектующих
+
+else
+
+user -> web: Воспользоваться поиском
+web -> system: Запросить список комплектующих\nс применением поиска
+system -> search: Поиск(запрос)
+search -> search_result **: Создать()
+search_result --> search
+search -> search: ФильтрОбъектов()
+search -> search_result: ЗаписатьРезультаты()
+search_result --> search
+search --> system
+system -> system: Адаптировать результаты поиска
+
+system -> search_result !!
+
+system --> web: Вернуть список комплектующих
+
+
+web -> web: Открыть «Комплектующие & Переферия»
+
+end
+
+web --> user: Отобразить комплектующие
+
+alt
+user -> web: Выбрать комплектующее
+
+else
+
+user -> web: Выбрать перефирийное устройство
+
+end
+
+web -> system: Запросить помещение выбора в корзину
+
+system -> basket: Добавить(товар)
+basket --> system
+system --> web
+web --> user
+
+end
+end
+end
+
+
+@enduml
