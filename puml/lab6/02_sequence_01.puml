@@ -1,0 +1,106 @@
+@startuml
+
+title "Подготовка приложения к работе"
+
+actor "Клиент"                 as Client
+boundary "ЭкранСборкиПК"       as PCBoundary
+boundary "ЭкранКомплектующих"  as PartBoundary 
+
+control "ЭкспертКомплектующих" as PartExpert 
+control "КорзинныйЭксперт"     as BasketExpert 
+
+entity "Корзина"               as Basket
+entity "Комплектующее"         as Part
+entity "Слот"                  as Slot
+entity "КонфигурацияПК"        as Config
+
+Client -> PCBoundary **
+PCBoundary ->  PartExpert: ПредопределённыеКонфигурации
+PartExpert --> PCBoundary
+PCBoundary --> Client
+
+alt
+Client -> PCBoundary: УстановитьТипТекущегоПК(...)
+PCBoundary -> PCBoundary
+PCBoundary --> Client
+
+loop Для каждого слота
+
+opt
+
+alt Заполнить самостоятельно
+
+Client -> PCBoundary: НастроитьСлот(...)
+PCBoundary -> PartBoundary **
+PartBoundary --> PCBoundary
+
+PCBoundary --> PartBoundary: УчестьСовместимостьСоСлотом(..)
+PartBoundary -> PartBoundary
+PartBoundary --> PCBoundary
+PCBoundary --> Client: ЭкранКомплектующих
+
+Client -> PartBoundary: ОтобразитьСписки()
+PartBoundary -> PartExpert: СовершитьПоиск(запрос=0, открытыйСлот)
+
+PartExpert  -> Part: ПеречислитьВсе()
+Part --> PartExpert
+
+loop Для каждого комплектующего
+
+PartExpert  -> Slot: ПроверитьСовместимость(...)
+Slot --> PartExpert: 
+
+end
+
+PartExpert --> PartBoundary: совместимые со слотом комплектующие: Комплектующие[0..*]
+
+PartBoundary --> Client
+
+Client --> PartBoundary: ВыбратьКомплектующее()
+PartBoundary --> Client
+Client -> PartBoundary !!
+
+else Использовать автоподбор
+
+Client -> PCBoundary: СделатьАвтоподборКомплектующих()
+PCBoundary -> PartExpert: СделатьАвтоподбор(:Слот)
+PartExpert -> PartExpert: СовершитьПоиск(запрос=0, открытыйСлот)
+
+loop Для каждой комплектующей
+
+PartExpert -> Part: ПосчатьОценночныеБаллы()
+Part --> PartExpert
+
+end
+
+PartExpert --> PCBoundary: Комплектующее с наивысшим баллом
+PCBoundary --> Client
+
+end
+
+end
+
+end
+
+else
+
+Client -> PCBoundary: ВернутьСписокКонфигураций()
+PCBoundary --> Client
+
+Client -> Client: Выбрать из списка
+
+Client -> PCBoundary: УстановитьПредустановленнуюКонфигурацию(..)
+PCBoundary -> PCBoundary
+PCBoundary --> Client: УстановитьПредустановленнуюКонфигурацию(..)
+
+end
+
+Client -> PCBoundary: ДобавитьТекущийПКВКорзину()
+PCBoundary -> BasketExpert: ДобавитьПКВКорзину(ПК)
+BasketExpert -> BasketExpert
+BasketExpert -> Basket: ДобавитьВКорзину(ПК)
+Basket --> BasketExpert
+BasketExpert --> PCBoundary
+PCBoundary --> Client
+
+@enduml
