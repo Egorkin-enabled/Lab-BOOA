@@ -1,0 +1,37 @@
+@startuml
+
+
+state "Состояние заказа" as OrderState {
+    state "Оформлен" as Created
+    state "В очереди" as Ordered
+    state "Собран" as Built
+    state "Отправлен" as Sent
+    state "Выполнен" as Done
+    state "Отменён" as Canceled
+ 
+    
+    [*] --> Created
+    Created --> Ordered: Начали собирать
+    Ordered --> Built: Собрали
+    Built --> Sent: Отправили
+    Sent --> Done: Завершили отправку
+
+    Created --> Canceled: Отменили
+    Ordered --> Canceled: Отменили
+    Built --> Canceled: Отменили
+    Sent --> Canceled: Отменили
+
+    ---
+
+    state "Не оплачен" as NotPayed
+    state "Оплачен картой" as CardPayed
+    state "Оплачен наличными" as CashPayed
+
+    [*] --> NotPayed
+    NotPayed --> CardPayed: Выполнили оплату картой 
+    NotPayed --> CashPayed: Выполнили оплату наличными
+}
+
+[*] --> OrderState
+
+@enduml
