@@ -4,7 +4,7 @@ left to right direction
 
 "Клиент" as client
 
-"Складская система" as storage
+"Система распределения" as storage
 "Курьер" as cuirer
 "Работник магазина" as salesman
 
